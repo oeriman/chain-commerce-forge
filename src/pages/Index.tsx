@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,6 +8,7 @@ import HeroSection from '@/components/HeroSection';
 import FeaturedStores from '@/components/FeaturedStores';
 import ProductShowcase from '@/components/ProductShowcase';
 import StatsSection from '@/components/StatsSection';
+import GalleryDemo from '@/components/GalleryDemo';
 
 const Index = () => {
   return (
@@ -18,6 +18,11 @@ const Index = () => {
       <StatsSection />
       <FeaturedStores />
       <ProductShowcase />
+      
+      {/* Gallery Section */}
+      <section className="py-20 px-4 bg-gray-50">
+        <GalleryDemo />
+      </section>
       
       {/* Features Section */}
       <section className="py-20 px-4">
